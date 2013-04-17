@@ -23,8 +23,6 @@ class NginxEnsite < Formula
     [nginx_etc/'sites-available', nginx_etc/'sites-enabled'].each do |path|
       path.mkpath unless path.directory?
     end
-    
-    ohai 'jada jada'
   end
 
 end
